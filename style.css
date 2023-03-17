@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 400;
+    src: url('fonts/nunito2.woff2') format('woff2'),
+         url('fonts/nunito.woff') format('woff');
+}
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ body {
     margin: auto;
     margin-top: 5%;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
     border-radius: 20px;
     backdrop-filter: blur(7px);
     
