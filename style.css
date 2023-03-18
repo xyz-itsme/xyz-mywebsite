@@ -7,8 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(bck.png) no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right, #1b1b1b, #3a3a3a);
     
 }
 .box{
@@ -45,3 +44,6 @@ body {
     padding: 15px;
     border-image: url(iagd.jpg) 50 round;
   }
+a {
+    color:white;
+}
